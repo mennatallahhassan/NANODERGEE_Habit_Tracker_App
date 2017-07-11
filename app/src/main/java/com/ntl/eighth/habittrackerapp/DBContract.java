@@ -18,7 +18,7 @@ public class DBContract {
         public static final String Type = "type";
 
 
-        public static final String createTable = "Create table " + Table_Name + "(" + Id + " integer primary key," + Task + " Text," + Type + " text)";
+        public static final String createTable = "Create table " + Table_Name + "(" + Id + " integer primary key," + Task + " Text," + Type + " integer)";
         public static final String deleteTable = "Drop table if exists " + Table_Name;
     }
 
